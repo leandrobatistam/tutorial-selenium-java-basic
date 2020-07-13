@@ -50,7 +50,7 @@ public class BasicDemo {
 
 	
 		// You can get your api key from the Applitools dashboard
-		config.setApiKey("APPLITOOLS_API_KEY");
+		config.setApiKey("OZ99ThK22aFeflyqnZYUCcgKmH8cnsJhn2rxl6cBhEIQ110");
 
 		// set new batch
 		config.setBatch(new BatchInfo("Demo batch"));
@@ -63,13 +63,13 @@ public class BasicDemo {
 		// Set AUT's name, test name and viewport size (width X height)
 		// We have set it to 800 x 600 to accommodate various screens. Feel free to
 		// change it.
-		eyes.open(driver, "Demo App", "Smoke Test", new RectangleSize(800, 600));
+		eyes.open(driver, "Demo App", "Smoke Test", new RectangleSize(1024, 768));
 
 		// Navigate the browser to the "ACME" demo app.
 		driver.get("https://demo.applitools.com");
 
-		// To see visual bugs after the first run, use the commented line below instead.
-		// driver.get("https://demo.applitools.com/index_v2.html");
+		//To see visual bugs after the first run, use the commented line below instead.
+		//driver.get("https://demo.applitools.com/index_v2.html");
 
 		// Visual checkpoint #1 - Check the login page. using the fluent API
 		// https://applitools.com/docs/topics/sdk/the-eyes-sdk-check-fluent-api.html?Highlight=fluent%20api
